@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link href="./index.css" rel="stylesheet">
+        <style>
+           @keyframes shark{
+                0%{transform: translateX(0) scaleX(1);}
+                50%{transform: translateX(940px) scaleX(1);}
+                51%{transform: translateX(940px) scaleX(-1);}
+                100%{transform: translateX(0) scaleX(-1);}
+           }
+           @keyframes diver1{
+                0%{top: 350px; transform: translateX(0) scaleX(1);}
+                50%{top: 230px; transform: translateX(940px) scaleX(1);}
+                51%{top: 230px; transform: translateX(940px) scaleX(-1);}
+                100%{top: 350px; transform: translateX(0) scaleX(-1);}
+           }
+           @keyframes diver2{
+                0%{top: 350px; transform: translateX(0) scaleX(1);}
+                50%{top: 420px; transform: translateX(930px) scaleX(1);}
+                51%{top: 420px; transform: translateX(930px) scaleX(-1);}
+                100%{top: 350px; transform: translateX(0) scaleX(-1);}
+           }
+           @keyframes diver3{
+                0%{top: 270px; transform: translateX(0) scaleX(1);}
+                50%{top: 390px; transform: translateX(500px) scaleX(1);}
+                51%{top: 390px; transform: translateX(500px) scaleX(-1);}
+                100%{top: 270px; transform: translateX(0) scaleX(-1);}
+           }
+           @keyframes turtle{
+                0%{transform: translateX(0) scaleX(1);}
+                50%{top: 80px; transform: translateX(500px) scaleX(1);}
+                51%{top: 80px; transform: translateX(500px) scaleX(-1);}
+                100%{transform: translateX(0) scaleX(-1);}
+           }
+           @keyframes faintSchool{
+                0%{transform: translateX(0) scaleX(1);}
+                50%{transform: translateX(730px) scaleX(1);}
+                51%{transform: translateX(730px) scaleX(-1);}
+                100%{transform: translateX(0) scaleX(-1);}
+           }
+           @keyframes goldFishSchool{
+                0%{transform: translateX(0) scaleX(1);}
+                50%{transform: translateX(730px) scaleX(1);}
+                51%{transform: translateX(730px) scaleX(-1);}
+                100%{transform: translateX(0) scaleX(-1);}
+           }
+           body{
+            background-image: url(./ocean.jpg!sw800);
+           }
+        </style>
+    </head>
+    <audio controls >
+        <source src="./baby-shark-122769.mp3">
+    </audio>
+    <body class='fill effect-snow no-click'>
+        <div id="shark">
+            <img src="./shark.png" width="180px" height="150px">
+        </div>
+        <div id="diver1">
+            <img src="./diver1.png"width="120px" height="100px">
+        </div>
+        <div id="diver2">
+            <img src="./diver2.png"width="120px" height="100px">
+        </div>
+        <div id="diver3">
+            <img src="./diver3.png"width="120px" height="100px">
+        </div>
+        <div id="turtle">
+            <img src="./turtle.png"width="100px" height="70px">
+        </div>
+        <div id="faintSchool">
+            <img src="./faintSchool.png"width="120px" height="80px">
+        </div>
+        <div id="goldFishSchool">
+            <img src="./goldFishSchool.png"width="100px" height="60px">
+        </div>
+    </body>
+</html>
